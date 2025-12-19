@@ -1,1 +1,2 @@
-# Shebaock
+# SomeRoom
+SomeRoom is a streamlined real-time chatroom application tailored for group conversations. This minimalist platform provides a clean and distraction-free environment for users to engage in discussions within a designated room. While it currently focuses on single-room communication, it offers an intuitive interface for effective group chatting. Join some real room and start conversing with your community!
