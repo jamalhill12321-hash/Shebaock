@@ -1,0 +1,16 @@
+{% extends 'base.html' %} {% block title %}
+<title>
+  {% if roomname %} {{ roomname + " by " + host}} {% else %} Room {% endif %}
+</title>
+{% endblock %} {% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/room.css')}}" />
+{% endblock %} {% block content %}
+
+<div class="output" id="messages"></div>
+<div class="input">
+  <span class="prompt">> </span>
+  <input type="text" id="message" placeholder="Write Message..." autocomplete="off" />
+</div>
+
+<script src="{{url_for('static', filename='js/room.js')}}"></script>
+{% endblock %}
