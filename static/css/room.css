@@ -1,0 +1,63 @@
+.output {
+  padding: 10px;
+  min-height: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message .green {
+  color: lightgreen;
+}
+
+.message .orange {
+  color: orange;
+}
+
+.message .date {
+  font-size: 12px;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+
+.input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #000000;
+}
+
+.prompt {
+  margin-right: 5px;
+  color: #00ff00;
+}
+
+.input input {
+  border: none;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-family: Monaco, monospace;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #2a2a2a;
+  }
+
+  .output {
+    max-height: 85%;
+  }
+
+  .input {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+}
